@@ -1,0 +1,70 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+.App {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(
+    to left,
+    rgba(39, 154, 116, 0.704),
+    rgba(130, 227, 194, 0.862)
+  );
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 1.5px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+.counter {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(235, 152, 243, 0.851),
+    rgba(106, 34, 113, 0.555)
+  );
+  color: white;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 1.5px 2px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+  margin: 10px;
+  margin-bottom: -10px;
+  font-weight: 100;
+  font-size: 30px;
+}
+.buttons {
+  margin: auto;
+  position: relative;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border: 1px solid white;
+  box-shadow: 1.5px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cold {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(64, 92, 205, 0.86),
+    rgba(142, 159, 179, 0.931)
+  );
+}
+.hot {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(218, 87, 73, 0.86),
+    rgba(221, 10, 10, 0.931)
+  );
+}
